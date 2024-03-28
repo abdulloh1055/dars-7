@@ -9,6 +9,10 @@ ul {
     padding-left: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -45,12 +49,48 @@ input::placeholder {
     gap: 20px;
 }
 
+.country {
+    background-color: #2B3844;
+}
+
 .country li {
     margin: 5px 0;
 }
 
 img {
     width: 100%;
+}
+
+.countries a .country h3,
+.countries a .country li {
+    color: white;
+    text-decoration: none !important;
+}
+
+.flag {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.main-country a {
+    background-color: #2B3844;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.back-btn {
+    margin: 20px 0;
+}
+
+.country-header {
+    margin-bottom: 50px;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -66,4 +106,3 @@ img {
         justify-content: center;
     }
 }
-s
